@@ -1,0 +1,308 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    background-color: #EDECEB;
+    padding: 0 !important; 
+}
+
+.navbar-brand img{
+    height: 60px;
+    padding-left: 20px;
+}
+
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+   color: #0a0a0a ;
+   font-weight: 600;
+   float: right;
+   text-align: left;
+}
+
+.fa-bars
+{
+    color: #000000;
+    font-size: 30px; 
+}
+
+.navbar-toggler
+{
+    outline: none !important;
+}
+
+/*------------------------Banner Section-----------------------------*/
+
+#banner
+{
+    background-color: #EDECEB;
+    color: #0a0a0a ;
+    padding-top:5%;   
+}
+
+.promo-title
+{
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.p-para
+{
+    font-family: 'Great Vibes', cursive;
+    font-size: larger;
+
+}
+
+.play-btn
+{
+    width: 45px;
+    margin: 20px;
+}
+
+#banner a
+{
+    text-decoration: none;
+    color: #0a0a0a ;;
+}
+
+.bottom-img
+{
+    width: 100%;
+}
+
+
+/*------------------------Services Section-----------------------------*/
+
+#services
+{
+    background-color: #EDECEB;
+    padding: 80px 0;
+    
+    
+}
+.title
+{
+   font-family: 'Great Vibes', cursive;
+   font-weight: bold;
+}
+
+
+.service-img
+{
+    width: 100px;
+    margin-top: 20px;
+}
+
+.services
+{
+    padding: 20px;
+}
+
+
+.services h4
+{
+    padding: 5px;
+    margin-top: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+#services .btn-primary
+{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #0c0c0c,#4a474a);
+}
+
+
+
+/*------------------------About-us Section-----------------------------*/
+
+#about-us {
+  padding: 60px 0;
+  background-color: #EDECEB;
+}
+
+#about-us .title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.abtpara {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+#about-us img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+
+/*------------------------Testimonials Section-----------------------------*/
+
+#testimonials {
+  padding: 90px 0;
+  background-color: #EDECEB;
+  
+}
+
+#testimonials .title {
+  font-weight: 700;
+  color: #222;
+  letter-spacing: 1.2px;
+}
+
+.testimonials {
+  background: #EDECEB;
+  border: 1px solid #EDECEB;
+  /* Optional: add min height so testimonial boxes align nicely */
+  min-height: 280px;
+}
+
+.testimonial-text {
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #555;
+  min-height: 140px;
+}
+
+
+.testimonial-img {
+  object-fit: cover;
+  border: 2px solid #ddd;
+}
+
+.user-details {
+  margin: 0;
+  text-align: left;
+  color: #333;
+  font-size: 1rem;
+}
+
+
+/*------------------------Social-Media Section-----------------------------*/
+
+#social-media
+{
+    font-family: 'Great Vibes', cursive;
+    background-color: #EDECEB;
+    padding: 100px 0;
+}
+
+#social-media p
+{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.social-icons img
+{
+    width: 60px;
+    transition: 0.5s;
+}
+
+.social-icons a:hover img
+{
+    transform: translateY(-10px);
+}
+
+/*------------------------Footer Section-----------------------------*/
+#footer
+{
+    background-color: #EDECEB;
+    color: #0a0a0a;
+
+}
+
+.footer-img
+{
+    width: 100%;
+}
+
+.footer-box
+{
+    padding: 20px;
+}
+
+.footer-box img
+{
+    width: 120px;
+    margin-top: 20px;
+}
+
+.footer-box .fa 
+{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+
+}
+
+.footer-box .form-control
+{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+
+.footer-box .btn-primary
+{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+}
+
+hr
+{
+    background-color: #fff;
+}
+
+.copyright
+{
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
+
