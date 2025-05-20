@@ -102,11 +102,31 @@ body{
     
     
 }
-.title
-{
-   font-family: 'Great Vibes', cursive;
-   font-weight: bold;
+
+
+.title {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 1rem;
+  display: inline-block;
+  text-align: center;
 }
+
+.title::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  width: 60px;
+  height: 3px;
+  background-color: #050505;
+  border-radius: 2px;
+}
+
 
 
 .service-img
@@ -215,7 +235,7 @@ body{
 
 #social-media
 {
-    font-family: 'Great Vibes', cursive;
+    font-family: sans-serif;
     background-color: #EDECEB;
     padding: 100px 0;
 }
@@ -306,3 +326,34 @@ hr
 }
 
 
+@media (max-width: 576px) {
+  .title {
+    font-size: 1.5rem;
+    padding-bottom: 8px;
+  }
+
+  .title::after {
+    width: 40px;
+    height: 2px;
+  }
+
+  .promo-title {
+    font-size: 1.4rem;
+  }
+
+  .p-para {
+    font-size: 1rem;
+  }
+
+  .services h4 {
+    font-size: 1.2rem;
+  }
+
+  .testimonial-text {
+    font-size: 1rem;
+  }
+
+  .user-details {
+    font-size: 0.9rem;
+  }
+}
